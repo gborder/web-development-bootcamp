@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+button {
+    width: 125px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-left: 65px;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+button:hover{
+    margin-left: 55px;
+    width: 135px;
+
+}
+
+.pricing-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.pricing-plan {
+    background-color: rgb(63, 63, 63);
+    margin-top: 50px;
+    padding: 25px;
+    border: none;
+    box-shadow: 5px 5px rgb(22, 22, 22);
+    border-radius: 25px;
+    color: white;
+
+    width: 250px;
+    height:280px
+}
+
+.pricing-plan > div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.plan-title {
+    font-size: 26px;    
+}
+
+.plan-features {
+    padding: 15px 5px;
+    
+}
+
+
